@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        details { margin:5px 0 10px; }
+details > summary { background:silver; color:navy; padding:10px; outline:0; border-radius:20px; cursor:pointer; transition:background 0.5s; text-align:left; box-shadow: 1px 1px 2px white; clear:both;
+float:left;}
+details > summary::-webkit-details-marker { background:silver; color: navy; background-size:contain; transform:rotate3d(0, 0, 1, 90deg); transition:transform 0.25s;}
+details[open] > summary::-webkit-details-marker { transform:rotate3d(0, 0, 1, 180deg);}
+details[open] > summary { background:silver;}
+details[open] > summary ~ * { animation:reveal 0.5s;}
+.tpt { background:silver; color:navy; margin:5px 0 10px; padding:5px 10px; line-height:25px; border-radius:20px; box-shadow: 1px 1px 2px white; clear:both; float:left;}
+.tpt2 { background:white; color:black; margin:5px 0 10px; padding:5px 10px; line-height:25px; border-radius:20px; box-shadow: 1px 1px 2px white; clear:both; float:left;}
+@keyframes reveal {
+    from { opacity:0; transform:translate3d(0, -30px, 0); }
+    to { opacity:1; transform:translate3d(0, 0, 0); }
+}
+li{
+   list-style:none;
+   }
+ 
+    </style>
+</head>
+<br>
+     <h1>필기시험 접수 안내</h1></br>
+    <li>
+        <details>
+            <summary>필기시험 원서접수</summary>
+            <div class="tpt">① 접수기간 내에 인터넷을 이용하여 원서접수<br><br>② 비회원의 경우 우선 회원 가입 (필히 사진등록)<br><br>③ 지역에 상관없이 원하는 시험장 선택 가능</div>
+        </details>
+        </li><br><br><br>
+    <li>
+        <details>
+            <summary>수험사항 통보</summary>
+            <div class="tpt">① 수험일시와 장소는 접수 즉시 통보됨<br><br>
+                ② 본인이 신청한 수험장소와 종목이 수험표의 기재사항과 일치 여부 확인</div>
+        </details>
+        </li><br><br><br>
+    <li>
+        <details>
+            <summary>필기시험 시험일 유의사항</summary>
+            <div class="tpt">① 입실시간 준수 <br><br>
+                ② 수험표, 신분증, 필기구(흑색 싸인펜 등) 지참</div>
+        </details>
+        </li><br><br><br>
+    <li>
+        <details>
+            <summary>합격자 발표</summary>
+            <div class="tpt">①인터넷 게시 공고, ARS를 통한 확인(단, CBT 시험은 인터넷 게시 공고)
+            </div>
+        </details> 
+        </li><br><br><br>
+    <li>
+        <details>
+            <summary>응시자격서류심사</summary>
+            <div class="tpt">* 응시자격서류 제출기한 내(토, 일, 공휴일 제외)에 소정의 응시자격서류(졸업증명서, 공단 소정 경력증명서 등)를 제출하지 아니할 경우에는 필기시험 합격예정이 무효됩니다.<br><br>
+                * 응시자격서류를 제출하여 합격처리된 사람에 한하여 실기접수가 가능함.<br><br>
+                *(산업기사,서비스) 온라인 응시자격서류제출은 필기시험 원서접수일부터 합격자발표일+7일까지 가능
+            </div>
+        </details> 
+        </li><br><br><br>              
+</body>
+</html>
